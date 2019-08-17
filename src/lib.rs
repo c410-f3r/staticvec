@@ -7,7 +7,7 @@
 #![feature(maybe_uninit_ref)]
 #![feature(maybe_uninit_extra)]
 #![feature(exact_size_is_empty)]
-#![feature(slice_partition_dedup)]
+#![feature(slice_partition_dedup, trusted_len)]
 
 //Literally just for stable-sort.
 #[cfg(any(feature = "std", rustdoc))]
